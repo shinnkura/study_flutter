@@ -1,0 +1,45 @@
+name: flutter_note
+description: Flutterの勉強に使うサンプルコードです
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+scripts:
+  doc: dart scripts/doc.dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod:
+  flutter_hooks:
+  riverpod_annotation:
+  google_fonts:
+  flutter_slidable:
+  json_annotation:
+  freezed_annotation:
+  liveroom:
+  percent_indicator:
+  go_router:
+  pixel_color_image: 1.2.2
+  web_socket_channel:
+  yuix:
+  firebase_core:
+  firebase_analytics:
+  device_preview:
+
+dev_dependencies:
+  freezed:
+  build_runner:
+  json_serializable:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  riverpod_generator: 2.1.4
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/google_fonts/
+  uses-material-design: true
